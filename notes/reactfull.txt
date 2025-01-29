@@ -1,0 +1,181 @@
+html 5 exclusive tags:
+-> header
+-> footer
+-> section
+-> article
+-> audio
+
+3 assignments, html5 tags, prerequisites all topics, tailwind css, why console? its importance
+do example programs for each of the following
+1. simple if
+2. if-else
+3. else-if
+4. else-if ladder
+5. nested if
+
+-> js can be used as client side and server side
+-> react and angular are popular frameworks of js
+-> let, var, const
+-> let, var - value can be changed. const - value cannot be changed
+-> var - global scope. let - local scope
+-> es6 - ECMAScript - extended version of javascript known as ECMAScript
+-> arrow function - from es6 - for efficiency in terms of space - increase the readability - functions without name
+-> eg. document.getElementById("response").innerHTML = howareyou()
+     object           method                property
+-> OOPS - object oriented programming structure - eg. class: bird objects: parrot, pigeon, dove etc properties: colour, size, wings, etc. 
+behaviour(methods): flying, eating etc.
+-> JS objects - inbuilt methods - 1. keys, 2. values, 3. entries
+-> JS promise - promise is a javascript object - two states: resolved (success), rejected (failure)
+-> 1. invoking a function
+   2. callback
+-> Promise inbuilt methods - when there is more than one promise, in order to review them, we can use Promise inbuilt methods
+according to the requirement. 
+methods:-
+1. Promise.all - once it sees a promise false, it will stop
+2. Promise.any - gives the shortest time promise provided status is true
+3. Promise.allSettled - will display one among three states: fulfilled, rejected, pending
+4. Promise.race - displays the first executing promise, no matter if it is resolved or rejected. if two or more execute
+at the same time, first promise defined in the program is executed
+-> react.js - it is a library or framework of javascript. eg websites: Netflix, amazon eg of html websites: youtube, wikipedia
+-> 1. create a folder 2. open cmd 
+3. commands:
+node -v (check node version)
+npm -v (check npm version)	
+npx create-react-app app_name 
+npm start
+cd app-name
+code . (to open it in vscode)
+-> three important folders in react: 1. public 2. src 3. 
+-> three important files: 1. index.html 2. index.js 3. index.css
+note: initially write code in app.js
+-> react follows vdom (virtual dom). here, unlike html, once dom gets created the changes or manipulation what we do gets completed and only that part will be re rendered. whereas in html everytime we make change entire dom will be re rendered
+-> in web application created by react.js, each and everything is called as component. 1. functional component 2. class component
+-> JSX (javascript html) - writing html inside javascript
+-> props and states: every component will have props and states. props: it wont change eg. brand name (tatas bislery).
+ states: it changes or we can change it eg: water level in bottle.
+initial state: full, updated state: half, current state: empty
+-> flipkart website - homepage, grocery, mobile, fashion
+component name: mobiles. props: name, version, price. state: discount, stock available
+-> react hooks: earlier in IT industry they were using class components, reason being, state concept was not available with functional components.
+hooks is used to implement state in functional components. types of hooks: 1. useState 2. useEffect 3. useRef 4. useContext 5. useReducer
+best example for use state: Counter clock. Stating the initial state as 0, we can increment it, decrement it, reset it using useState hook
+-> spread operator - 
+-> useEffect - upon the condition or action we apply in our functional components monitoring the impact or side effects can be done using useEffect hook.
+useEffect accepts two arguments, one is callback function and second is the dependency array which is optional.
+note: callback function is like constructor in java
+-> useReducer - same as useState to manage or update states that is data that is values of component. difference is if you have more states or complex things u use useeducer hook
+step 1: create inc dec prog using useState
+step 2: replace useState with useReducer
+ - usereducer takes two arguments first is reducerfunction which says what u want to do (like increment or decrement), second is initial value of state
+ - usereducer returns array with two values like usestate
+ - first is that initial count and second is dispatch function we call them as state and dispatch. here state will hold initial value and updated once you call dispatch function and dispatch will trigger useReducer function
+ - redux - store - has all the states of components - slices - consists of action and reducing function. 
+ MongoDB:
+- NoSQL another eg. JSON  
+- unstructured data
+	-
+total five components 
+c1,c2,c3,c4,c5 
+c1 
+
+
+sometime direct export won't work that time go to tradition way export defult
+
+whenever using something inside curly bracket it can be js object or react component
+
+add onne prop 
+
+
+prop can be between components only by following hirachy which mean parent to child 
+to overcome this with interms of efficiency we are using hooks
+
+if we want to use state one component to another component only way to achieve is passing it props in the hiracy 
+
+this is not efficient to make it efficient to exclusive hook "useContext" 
+
+want four component 
+first-app.js
+second-container
+thired - users  ----
+                    |  
+fourth - user   ---- 
+
+useContext hook:
+        without following a hirachy passing state one component to another component in efficient way using this hook
+
+Two importm thing:
+1.create context
+2.use contex 	
+
+in the given a example 
+create context will be done in app component and use that will bne use in user component  using usecontext
+
+
+
+syncroning a compoknent with and extranal system  after are action monitoring or scyn this side effect happening in the functional component using useeffect 
+
+
+
+USEREDUSER :
+		Same as usestate to manage or update state that is data that is values of components.
+		difference is if u hv more states or complex things u use usereduecer hook 
+		
+step 1:
+  create increment decrement prg using usestate 
+  
+step 2:
+	replace usestate with use reducer 
+	
+	note :
+	
+	point 1:usereduser takes arguments first is reducerfucntion 
+	which says what u what to do (like increment /decrement etc),second is initial value of state 
+	
+	point 2: usereducer returns array with two values like usestate
+	
+	first is the initial count and second is the dispatch function 
+	we call them as "state and dispatch"
+	
+here state will hold initial value and updated ones you call dispatch function and dispatch will trigger usereducer function
+  
+  
+  
+  redux :
+  
+  installation:
+  npm i @reduxjs/toolkit react-redux
+  
+  Explanation : here reduxjs/toolkit is redux library / react-redux is a package from react which connecets 
+  react components with redux
+  
+  INSTALL ROUTER:
+  npm i react-router-dom
+  
+  router 
+  routes
+  route
+ 
+  
+  route
+  routes 
+  router
+  
+  
+  
+  EXAMPLE:
+  
+  step 1: create this using routing 
+  home users about contact 
+  
+  
+  
+  
+  
+  
+  
+  
+  redux mid notes
+ explanation :
+ userInfo is the key for reducers and useReducer is the name we 
+ give for reducer actions we get from userslice.js
+

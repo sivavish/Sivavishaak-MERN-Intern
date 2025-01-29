@@ -1,0 +1,59 @@
+
+
+
+
+
+path :   
+C:\recat
+
+
+
+cmds:
+npx create-react-app demo
+
+
+
+
+first cmd:
+	*create a folder in called react in desktop .
+	*open cmd on the disk loc.
+	*now we are sin cmd promt now cmd 1:
+			$ node -v(cheak version of node)
+			$ npm -v(cheak version of nmp) 
+			$npx create-react-app demo (to creating react app use this cmd  )
+			$npm start (this supposte to open ur app at post 3000).if dose not work then 
+			     to make it work 
+			     		1) open ur react folder
+			     		2)u will c ur app folder got created 
+			     		3)if u have created folder successfully the go to ur cmt prompt 
+			     		4)$ code .  (to open in vs code) 
+			     		
+	* two  importent folder 
+	      -
+	      -
+	*three importent files 
+		- index.html
+		-index.js
+		-index.css
+		note: as of now dont touch these files.
+    
+    
+    * initialy write ur code in app.js
+    
+    
+    DOM:
+    * here unlike htmnl ones dom get created the changes or manipulion what we do  only that part will be rerendered   where as in html every time change the entire dom will be re-rentered  
+    
+    * in a web application create 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   sync a component with  and extend 
