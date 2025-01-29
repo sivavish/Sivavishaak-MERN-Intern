@@ -1,0 +1,130 @@
+.contact-container {
+  padding: 40px;
+  background: linear-gradient(135deg, #827c8a, #2575fc); /* Gradient Background */
+  color: #fff;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-heading {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #473a04; 
+}
+
+.contact-subheading {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  color: #0f1527; 
+}
+
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 10px;
+}
+
+
+.social-media {
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.social-media h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 10px 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #ffe680;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  color: #9e987f; 
+}
+
+.social-links i {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+
+.contact-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+  text-align: left;
+  color: #333;
+}
+
+.contact-form h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2575fc; /* Blue Focus */
+  outline: none;
+}
+
+.send-button {
+  background: linear-gradient(135deg, #ff6a00, #ee0979); /* Gradient Button */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.send-button:hover {
+  background: linear-gradient(135deg, #ee0979, #ff6a00); /* Reverse Gradient */
+}
+
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
